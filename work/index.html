@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/style.css">
   <title>form-practice</title>
 </head>
 
@@ -19,21 +20,21 @@
           <h3 class="content_title">個人情報</h3>
           <div class="input_section">
             <label class="label_text">
-              "名字"
+              名字
               <span class="required">※</span>
             </label>
             <input class="input_area" id="family_name" type="text" name="name" autocomplete="family-name" required>
           </div>
           <div class="input_section">
             <label class="label_text">
-              "名前"
+              名前
               <span class="required">※</span>
             </label>
             <input class="input_area" id="given_name" type="text" name="name" autocomplete="given-name" required>
           </div>
           <div class="input_section">
             <label class="label_text">
-              "生年月日"
+              生年月日
               <span class="required">※</span>
             </label>
             <div class="select_area is_flex">
@@ -52,7 +53,7 @@
                   <option value>2009</option>
                   <option value>2010</option>
                 </select>
-                ::after
+
               </div>
               <div class="select_unit">
                 <select class="input_area" name="month">
@@ -70,7 +71,7 @@
                   <option value>11</option>
                   <option value>12</option>
                 </select>
-                ::after
+
               </div>
               <div class="select_unit">
                 <select class="input_area" name="day">
@@ -86,35 +87,35 @@
                   <option valu>9</option>
                   <option valu>10</option>
                 </select>
-                ::after
+
               </div>
             </div>
           </div>
           <div class="input_section">
             <p class="label_text">
-              "性別"
+              性別
               <span class="required">※</span>
             </p>
             <div class="gender_area">
               <label class="gender_element">
                 <input class="gender_content" type="radio" name="gender" value="man">
                 <span>
-                  ::before
-                  "異性"
+
+                  男性
                 </span>
               </label>
               <label class="gender_element">
                 <input class="gender_content" type="radio" name="gender" value="woman">
                 <span>
-                  ::before
-                  "女性"
+
+                  女性
                 </span>
               </label>
               <label class="gender_element">
                 <input class="gender_content" type="radio" name="gender" value="other">
                 <span>
-                  ::before
-                  "その他"
+
+                  その他
                 </span>
               </label>
             </div>
@@ -130,7 +131,7 @@
                   <option value>主婦</option>
                   <option value>その他</option>
                 </select>
-                ::after
+
               </div>
             </div>
           </div>
@@ -139,28 +140,28 @@
           <h3 class="content_title">アカウント情報</h3>
           <div class="input_section">
             <label class="label_text" for="account_name">
-              "アカウント名"
+              アカウント名
               <span class="required">※</span>
             </label>
             <input class="input_area" id="account_name" type="text" required>
           </div>
           <div class="input_section">
             <label class="label_text" for="email">
-              "メールアドレス"
+              メールアドレス
               <span class="required">※</span>
             </label>
             <input class="input_area" id="email" type="email" autocomplete="email" required>
           </div>
           <div class="input_section">
             <label class="label_text" for="password">
-              "パスワード"
+              パスワード
               <span class="required">※</span>
             </label>
             <input class="input_area" id="password" type="password" required>
           </div>
           <div class="input_section">
             <label class="label_text" for="duplication_password">
-              "確認用パスワード"
+              確認用パスワード
               <span class="required">※</span>
             </label>
             <input class="input_area" id="duplication_password" type="password" required>
@@ -170,14 +171,14 @@
           <h3 class="content_title">連絡先</h3>
           <div class="input_section">
             <label class="label_text" for="address">
-              "住所"
+              住所
               <span class="required">※</span>
             </label>
             <input class="input_area" id="address" type="text" required>
           </div>
           <div class="input_section">
             <label class="label_text" for="email">
-              "電話番号"
+              電話番号
               <span class="required">※</span>
             </label>
             <input class="input_area" id="tel" type="tel" autocomplete="tel" required>
@@ -188,26 +189,26 @@
           <div class="input_section subscription_unit">
             <input type="checkbox" name="subscription" value="email-magazine" id="email-magazine">
             <label class="label_text subscription_label" for="email-magazine">
-              ::before
-              "メールマガジン"
+
+              メールマガジン
             </label>
           </div>
           <div class="input_section subscription_unit">
             <input class="subscription_chechbox" type="checkbox" name="subscription" value="coupon" id="coupon">
             <label class="label_text subscription_label" for="coupon">
-              ::before
-              "クーポン"
+
+              クーポン
             </label>
           </div>
         </div>
         <div class="submit_content">
           <button class="btn btn_submit" type="submit">アカウント作成</button>
           <p class="other-text">
-            "アカウントを作成することにより、"
+            アカウントを作成することにより、
             <a class="link-color" href="#">利用規約</a>
-            "と"
+            と
             <a class="link-color" href="#">プライバシーポリシー</a>
-            "に同意するものとします。"
+            に同意するものとします。
           </p>
         </div>
       </form>
