@@ -28,11 +28,7 @@
   text-align: center;
 }
 
-.personal_content,
-.acount_content,
-.contact_content,
-.subscription_content,
-.submit_content {
+.personal_content, .acount_content, .contact_content, .subscription_content, .submit_content {
   margin-top: 50px;
 }
 
