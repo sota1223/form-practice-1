@@ -19,34 +19,17 @@
         <div class="personal_content">
           <h3 class="content_title">個人情報</h3>
           <div class="input_section">
-            <div class="input_section">
-              <label class="label_text"
-                >名字
-                <span class="required">※</span>
-              </label>
-              <input
-                class="input_area"
-                id="family_name"
-                type="text"
-                name="name"
-                autocomplete="family_name"
-                required
-              />
-            </div>
-            <div class="input_section">
-              <label class="label_text"
-                >名前
-                <span class="required">※</span>
-              </label>
-              <input
-                class="input_area"
-                id="given_name"
-                type="text"
-                name="name"
-                autocomplete="given_name"
-                required
-              />
-            </div>
+            <label class="label_text" for="family_name">名字
+              <span class="required">※</span>
+            </label>
+            <input class="input_area" id="family_name" type="text" name="name" autocomplete="family_name" required />
+          </div>
+          <div class="input_section">
+            <label class="label_text" for="given_name">名前
+              <span class="required">※</span>
+            </label>
+            <input class="input_area" id="given_name" type="text" name="name" autocomplete="given_name" required />
+          </div>
           <div class="input_section">
             <label class="label_text">
               生年月日
@@ -146,7 +129,6 @@
                   <option value>主婦</option>
                   <option value>その他</option>
                 </select>
-
               </div>
             </div>
           </div>
